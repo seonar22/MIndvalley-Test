@@ -3,16 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2989DC6722C3886600693A79 /* PinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2989DC6522C3886600693A79 /* PinCell.swift */; };
+		2989DC6822C3886600693A79 /* PinCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2989DC6622C3886600693A79 /* PinCell.xib */; };
+		2989DC6922C3A4FC00693A79 /* PinDownloadChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F00B5922C25CC10069B94A /* PinDownloadChecker.swift */; };
+		2989DC7522C3B13C00693A79 /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2989DC6F22C3B13C00693A79 /* ProfileImage.swift */; };
+		298C7E8A22C3B4B800BCFE2B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2989DC6C22C3B13A00693A79 /* Category.swift */; };
+		298C7E8B22C3B4B800BCFE2B /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2989DC6D22C3B13A00693A79 /* Links.swift */; };
+		298C7E8C22C3B4B800BCFE2B /* PinterestItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2989DC6E22C3B13B00693A79 /* PinterestItem.swift */; };
+		298C7E8D22C3B4B800BCFE2B /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2989DC6A22C3B13A00693A79 /* Urls.swift */; };
+		298C7E8E22C3B4B800BCFE2B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2989DC6B22C3B13A00693A79 /* User.swift */; };
 		29F00B2F22C25B660069B94A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F00B2E22C25B660069B94A /* AppDelegate.swift */; };
-		29F00B3122C25B660069B94A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F00B3022C25B660069B94A /* ViewController.swift */; };
+		29F00B3122C25B660069B94A /* PinTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F00B3022C25B660069B94A /* PinTableViewController.swift */; };
 		29F00B3422C25B660069B94A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29F00B3222C25B660069B94A /* Main.storyboard */; };
 		29F00B3622C25B740069B94A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F00B3522C25B740069B94A /* Assets.xcassets */; };
 		29F00B3922C25B740069B94A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29F00B3722C25B740069B94A /* LaunchScreen.storyboard */; };
 		29F00B4422C25B740069B94A /* MIndvalley_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F00B4322C25B740069B94A /* MIndvalley_TestTests.swift */; };
+		29F00B5622C25CA20069B94A /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F00B5322C25CA20069B94A /* Cache.swift */; };
+		29F00B5722C25CA20069B94A /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F00B5422C25CA20069B94A /* Downloader.swift */; };
+		29F00B5822C25CA20069B94A /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F00B5522C25CA20069B94A /* Helper.swift */; };
+		4978BAD3DAB8481B325247EE /* Pods_MIndvalley_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251BE84FC8A4B8F22F2A806B /* Pods_MIndvalley_Test.framework */; };
+		E0975F08A0C9EC528685CD5F /* Pods_MIndvalley_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB00FB647383CE7A540311FB /* Pods_MIndvalley_TestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +40,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		251BE84FC8A4B8F22F2A806B /* Pods_MIndvalley_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MIndvalley_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2989DC6522C3886600693A79 /* PinCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCell.swift; sourceTree = "<group>"; };
+		2989DC6622C3886600693A79 /* PinCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PinCell.xib; sourceTree = "<group>"; };
+		2989DC6A22C3B13A00693A79 /* Urls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
+		2989DC6B22C3B13A00693A79 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2989DC6C22C3B13A00693A79 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		2989DC6D22C3B13A00693A79 /* Links.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
+		2989DC6E22C3B13B00693A79 /* PinterestItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestItem.swift; sourceTree = "<group>"; };
+		2989DC6F22C3B13C00693A79 /* ProfileImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
 		29F00B2B22C25B660069B94A /* MIndvalley Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MIndvalley Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29F00B2E22C25B660069B94A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		29F00B3022C25B660069B94A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29F00B3022C25B660069B94A /* PinTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinTableViewController.swift; sourceTree = "<group>"; };
 		29F00B3322C25B660069B94A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		29F00B3522C25B740069B94A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29F00B3822C25B740069B94A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +59,15 @@
 		29F00B3F22C25B740069B94A /* MIndvalley TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MIndvalley TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29F00B4322C25B740069B94A /* MIndvalley_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIndvalley_TestTests.swift; sourceTree = "<group>"; };
 		29F00B4522C25B740069B94A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29F00B5322C25CA20069B94A /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		29F00B5422C25CA20069B94A /* Downloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		29F00B5522C25CA20069B94A /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		29F00B5922C25CC10069B94A /* PinDownloadChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinDownloadChecker.swift; sourceTree = "<group>"; };
+		5BD4DBF7E55C39D730490856 /* Pods-MIndvalley TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MIndvalley TestTests.release.xcconfig"; path = "Target Support Files/Pods-MIndvalley TestTests/Pods-MIndvalley TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		5CA803D62BAD318E5EE110BC /* Pods-MIndvalley Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MIndvalley Test.debug.xcconfig"; path = "Target Support Files/Pods-MIndvalley Test/Pods-MIndvalley Test.debug.xcconfig"; sourceTree = "<group>"; };
+		A7EA6807B2DDBCD0BC8B534E /* Pods-MIndvalley TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MIndvalley TestTests.debug.xcconfig"; path = "Target Support Files/Pods-MIndvalley TestTests/Pods-MIndvalley TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC215F5C005CDBE3399468A2 /* Pods-MIndvalley Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MIndvalley Test.release.xcconfig"; path = "Target Support Files/Pods-MIndvalley Test/Pods-MIndvalley Test.release.xcconfig"; sourceTree = "<group>"; };
+		EB00FB647383CE7A540311FB /* Pods_MIndvalley_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MIndvalley_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4978BAD3DAB8481B325247EE /* Pods_MIndvalley_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0975F08A0C9EC528685CD5F /* Pods_MIndvalley_TestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +96,8 @@
 				29F00B2D22C25B660069B94A /* MIndvalley Test */,
 				29F00B4222C25B740069B94A /* MIndvalley TestTests */,
 				29F00B2C22C25B660069B94A /* Products */,
+				CC5615863A910F85393E2A82 /* Pods */,
+				A49EAAFE6B508F11E309A4BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +113,15 @@
 		29F00B2D22C25B660069B94A /* MIndvalley Test */ = {
 			isa = PBXGroup;
 			children = (
+				29F00B5922C25CC10069B94A /* PinDownloadChecker.swift */,
+				29F00B5222C25C770069B94A /* libs */,
+				29F00B5122C25C5E0069B94A /* view */,
+				29F00B5022C25C430069B94A /* model */,
+				29F00B4E22C25BF20069B94A /* resources */,
 				29F00B2E22C25B660069B94A /* AppDelegate.swift */,
-				29F00B3022C25B660069B94A /* ViewController.swift */,
+				29F00B3022C25B660069B94A /* PinTableViewController.swift */,
 				29F00B3222C25B660069B94A /* Main.storyboard */,
-				29F00B3522C25B740069B94A /* Assets.xcassets */,
 				29F00B3722C25B740069B94A /* LaunchScreen.storyboard */,
-				29F00B3A22C25B740069B94A /* Info.plist */,
 			);
 			path = "MIndvalley Test";
 			sourceTree = "<group>";
@@ -96,6 +135,67 @@
 			path = "MIndvalley TestTests";
 			sourceTree = "<group>";
 		};
+		29F00B4E22C25BF20069B94A /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				29F00B3A22C25B740069B94A /* Info.plist */,
+				29F00B3522C25B740069B94A /* Assets.xcassets */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		29F00B5022C25C430069B94A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				2989DC6C22C3B13A00693A79 /* Category.swift */,
+				2989DC6D22C3B13A00693A79 /* Links.swift */,
+				2989DC6E22C3B13B00693A79 /* PinterestItem.swift */,
+				2989DC6F22C3B13C00693A79 /* ProfileImage.swift */,
+				2989DC6A22C3B13A00693A79 /* Urls.swift */,
+				2989DC6B22C3B13A00693A79 /* User.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		29F00B5122C25C5E0069B94A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				2989DC6522C3886600693A79 /* PinCell.swift */,
+				2989DC6622C3886600693A79 /* PinCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		29F00B5222C25C770069B94A /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				29F00B5322C25CA20069B94A /* Cache.swift */,
+				29F00B5422C25CA20069B94A /* Downloader.swift */,
+				29F00B5522C25CA20069B94A /* Helper.swift */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		A49EAAFE6B508F11E309A4BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				251BE84FC8A4B8F22F2A806B /* Pods_MIndvalley_Test.framework */,
+				EB00FB647383CE7A540311FB /* Pods_MIndvalley_TestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC5615863A910F85393E2A82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CA803D62BAD318E5EE110BC /* Pods-MIndvalley Test.debug.xcconfig */,
+				AC215F5C005CDBE3399468A2 /* Pods-MIndvalley Test.release.xcconfig */,
+				A7EA6807B2DDBCD0BC8B534E /* Pods-MIndvalley TestTests.debug.xcconfig */,
+				5BD4DBF7E55C39D730490856 /* Pods-MIndvalley TestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29F00B4822C25B740069B94A /* Build configuration list for PBXNativeTarget "MIndvalley Test" */;
 			buildPhases = (
+				ADFFF76A6C3B52CE5B7C840B /* [CP] Check Pods Manifest.lock */,
 				29F00B2722C25B660069B94A /* Sources */,
 				29F00B2822C25B660069B94A /* Frameworks */,
 				29F00B2922C25B660069B94A /* Resources */,
+				84C2CB5F7C25ED7FE6889F00 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29F00B4B22C25B740069B94A /* Build configuration list for PBXNativeTarget "MIndvalley TestTests" */;
 			buildPhases = (
+				31C1B456FEA0C2ACDE4FE817 /* [CP] Check Pods Manifest.lock */,
 				29F00B3B22C25B740069B94A /* Sources */,
 				29F00B3C22C25B740069B94A /* Frameworks */,
 				29F00B3D22C25B740069B94A /* Resources */,
@@ -178,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29F00B3922C25B740069B94A /* LaunchScreen.storyboard in Resources */,
+				2989DC6822C3886600693A79 /* PinCell.xib in Resources */,
 				29F00B3622C25B740069B94A /* Assets.xcassets in Resources */,
 				29F00B3422C25B660069B94A /* Main.storyboard in Resources */,
 			);
@@ -192,13 +296,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31C1B456FEA0C2ACDE4FE817 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MIndvalley TestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84C2CB5F7C25ED7FE6889F00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MIndvalley Test/Pods-MIndvalley Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MIndvalley Test/Pods-MIndvalley Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MIndvalley Test/Pods-MIndvalley Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADFFF76A6C3B52CE5B7C840B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MIndvalley Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		29F00B2722C25B660069B94A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29F00B3122C25B660069B94A /* ViewController.swift in Sources */,
+				298C7E8A22C3B4B800BCFE2B /* Category.swift in Sources */,
+				298C7E8B22C3B4B800BCFE2B /* Links.swift in Sources */,
+				298C7E8C22C3B4B800BCFE2B /* PinterestItem.swift in Sources */,
+				298C7E8D22C3B4B800BCFE2B /* Urls.swift in Sources */,
+				298C7E8E22C3B4B800BCFE2B /* User.swift in Sources */,
+				2989DC6922C3A4FC00693A79 /* PinDownloadChecker.swift in Sources */,
+				29F00B3122C25B660069B94A /* PinTableViewController.swift in Sources */,
+				2989DC7522C3B13C00693A79 /* ProfileImage.swift in Sources */,
+				29F00B5622C25CA20069B94A /* Cache.swift in Sources */,
+				29F00B5822C25CA20069B94A /* Helper.swift in Sources */,
+				29F00B5722C25CA20069B94A /* Downloader.swift in Sources */,
 				29F00B2F22C25B660069B94A /* AppDelegate.swift in Sources */,
+				2989DC6722C3886600693A79 /* PinCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +477,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
 			};
 			name = Debug;
 		};
@@ -352,17 +532,19 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		29F00B4922C25B740069B94A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CA803D62BAD318E5EE110BC /* Pods-MIndvalley Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J3WYZCD3FF;
-				INFOPLIST_FILE = "MIndvalley Test/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MIndvalley Test/resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -377,11 +559,12 @@
 		};
 		29F00B4A22C25B740069B94A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC215F5C005CDBE3399468A2 /* Pods-MIndvalley Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J3WYZCD3FF;
-				INFOPLIST_FILE = "MIndvalley Test/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MIndvalley Test/resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -396,6 +579,7 @@
 		};
 		29F00B4C22C25B740069B94A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7EA6807B2DDBCD0BC8B534E /* Pods-MIndvalley TestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -417,6 +601,7 @@
 		};
 		29F00B4D22C25B740069B94A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD4DBF7E55C39D730490856 /* Pods-MIndvalley TestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

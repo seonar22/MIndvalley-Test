@@ -1,34 +1,37 @@
-//
-//  MIndvalley_TestTests.swift
-//  MIndvalley TestTests
-//
-//  Created by skcron on 6/25/19.
-//  Copyright © 2019 Mindvalley. All rights reserved.
-//
-
 import XCTest
 @testable import MIndvalley_Test
 
 class MIndvalley_TestTests: XCTestCase {
-
+    var sut: PinTableViewController!
+    var window: UIWindow!
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        super.setUp()
+        window = UIWindow()
+        setupVC()
     }
-
+    
+    func setupVC(){
+        let bundle = Bundle.main
+        let storyboard = UIStoryboard(name: "Main", bundle: bundle)
+        sut = storyboard.instantiateViewController(withIdentifier: "PinTableViewController") as? PinTableViewController
+    }
+    
+    func test_InitialData() {
+        XCTAssertEqual(sut.pins.count,0,"searchResults should be empty before the data task runs")
+    }
+    
+    func test_UpdateResultData() {
+        sut.viewDidLoad()
+        XCTAssertEqual(
+            sut.pins.count,
+            10,
+            "searchResults should be 10 per data from network")
+    }
+    
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        sut = nil
+        window = nil
+        super.tearDown()
     }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
+    
 }
